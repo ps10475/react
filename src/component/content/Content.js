@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import './Content.css'
 
 class Content extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+     
+        state = {
             products :  [
                             {
                                 id : 1,
@@ -23,7 +22,7 @@ class Content extends Component {
                             }
                         ]
         }
-    }
+    
     
     
     render(){
